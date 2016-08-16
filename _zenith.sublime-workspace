@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
 				"com",
 				"computed_values"
 			],
@@ -159,9 +175,33 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 1212,
+				"buffer_size": 8455,
 				"line_ending": "Unix",
 				"name": "<?php"
+			}
+		},
+		{
+			"file": "css/custom.css",
+			"settings":
+			{
+				"buffer_size": 3166,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n.full {\n    width: 100%;	\n}\n.gap {\n	height: 30px;\n	width: 100%;\n	clear: both;\n	display: block;\n}\n.footer {\n	background: #EDEFF1;\n	height: auto;\n	padding-bottom: 30px;\n	position: relative;\n	width: 100%;\n	border-bottom: 1px solid #CCCCCC;\n	border-top: 1px solid #DDDDDD;\n}\n.footer p {\n	margin: 0;\n}\n.footer img {\n	max-width: 100%;\n}\n.footer h3 {\n	border-bottom: 1px solid #BAC1C8;\n	color: #54697E;\n	font-size: 18px;\n	font-weight: 600;\n	line-height: 27px;\n	padding: 40px 0 10px;\n	text-transform: uppercase;\n}\n.footer ul {\n	font-size: 13px;\n	list-style-type: none;\n	margin-left: 0;\n	padding-left: 0;\n	margin-top: 15px;\n	color: #7F8C8D;\n}\n.footer ul li a {\n	padding: 0 0 5px 0;\n	display: block;\n}\n.footer a {\n	color: #78828D\n}\n.supportLi h4 {\n	font-size: 20px;\n	font-weight: lighter;\n	line-height: normal;\n	margin-bottom: 0 !important;\n	padding-bottom: 0;\n}\n.newsletter-box input#appendedInputButton {\n	background: #FFFFFF;\n	display: inline-block;\n	float: left;\n	height: 30px;\n	clear: both;\n	width: 100%;\n}\n.newsletter-box .btn {\n	border: medium none;\n	-webkit-border-radius: 3px;\n	-moz-border-radius: 3px;\n	-o-border-radius: 3px;\n	-ms-border-radius: 3px;\n	border-radius: 3px;\n	display: inline-block;\n	height: 40px;\n	padding: 0;\n	width: 100%;\n	color: #fff;\n}\n.newsletter-box {\n	overflow: hidden;\n}\n.bg-gray {\n	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);\n	box-shadow: 0 1px 0 #B4B3B3;\n}\n.social li {\n	background: none repeat scroll 0 0 #B5B5B5;\n	border: 2px solid #B5B5B5;\n	-webkit-border-radius: 50%;\n	-moz-border-radius: 50%;\n	-o-border-radius: 50%;\n	-ms-border-radius: 50%;\n	border-radius: 50%;\n	float: left;\n	height: 36px;\n	line-height: 36px;\n	margin: 0 8px 0 0;\n	padding: 0;\n	text-align: center;\n	width: 36px;\n	transition: all 0.5s ease 0s;\n	-moz-transition: all 0.5s ease 0s;\n	-webkit-transition: all 0.5s ease 0s;\n	-ms-transition: all 0.5s ease 0s;\n	-o-transition: all 0.5s ease 0s;\n}\n.social li:hover {\n	transform: scale(1.15) rotate(360deg);\n	-webkit-transform: scale(1.1) rotate(360deg);\n	-moz-transform: scale(1.1) rotate(360deg);\n	-ms-transform: scale(1.1) rotate(360deg);\n	-o-transform: scale(1.1) rotate(360deg);\n}\n.social li a {\n	color: #EDEFF1;\n}\n.social li:hover {\n	border: 2px solid #2c3e50;\n	background: #2c3e50;\n}\n.social li a i {\n	font-size: 16px;\n	margin: 0 0 0 5px;\n	color: #EDEFF1 !important;\n}\n.footer-bottom {\n	background: #E3E3E3;\n	border-top: 1px solid #DDDDDD;\n	padding-top: 10px;\n	padding-bottom: 10px;\n}\n.footer-bottom p.pull-left {\n	padding-top: 6px;\n}\n.payments {\n	font-size: 1.5em;	\n}",
+			"settings":
+			{
+				"buffer_size": 2550,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "classLib/SideBar.php",
+			"settings":
+			{
+				"buffer_size": 3801,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -221,6 +261,9 @@
 	},
 	"file_history":
 	[
+		"/Users/davidclare/Code/zenith/composer.json",
+		"/Users/davidclare/Code/zenith/classLib/SideBar.php",
+		"/Users/davidclare/Code/zenith/vendor/autoload.php",
 		"/Users/davidclare/Code/blank.co.uk/pt/timeline.php",
 		"/Users/davidclare/Code/blank.co.uk/composer.json",
 		"/Users/davidclare/Code/blank.co.uk/database/migrations/2016_08_15_210025_EventsMigration.php",
@@ -345,10 +388,7 @@
 		"/Users/davidclare/Code/mypt.co.uk/resources/views/layouts/old_nav.php",
 		"/Users/davidclare/Code/mypt.co.uk/app/Settings.php",
 		"/Users/davidclare/Code/mypt.co.uk/composer.json",
-		"/Users/davidclare/Code/mypt.co.uk/resources/views/settings/create.blade.php",
-		"/Users/davidclare/Code/mypt.co.uk/app/helpers.php",
-		"/Users/davidclare/Code/mypt.co.uk/database/migrations/2016_07_02_222721_create_settings_table.php",
-		"/Users/davidclare/Code/mypt.co.uk/notes/users SQL Dump"
+		"/Users/davidclare/Code/mypt.co.uk/resources/views/settings/create.blade.php"
 	],
 	"find":
 	{
@@ -367,6 +407,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"#AA0000",
+			"#CC0000",
+			"h3>",
+			"h2>",
+			"vendor",
 			"home",
 			"log",
 			"*\n",
@@ -449,6 +494,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"#FF4B4B",
+			"#EE1C25 ",
+			"h4>",
+			"h3>",
 			"<?=$this->css",
 			"$data->",
 			"'value' => \"\"",
@@ -478,24 +527,105 @@
 					"file": "index.php",
 					"settings":
 					{
-						"buffer_size": 1212,
+						"buffer_size": 8455,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								487,
-								487
+								5775,
+								5775
 							]
 						],
 						"settings":
 						{
 							"auto_name": "<?php",
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2407.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/custom.css",
+					"settings":
+					{
+						"buffer_size": 3166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								115,
+								115
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 535.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 2550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98,
+								297
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "classLib/SideBar.php",
+					"settings":
+					{
+						"buffer_size": 3801,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1279,
+								1279
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 243.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1075,6 +1205,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 291.0,
+	"side_bar_width": 152.0,
 	"status_bar_visible": true
 }
