@@ -1,0 +1,28 @@
+{
+    "require": {
+        "twbs/bootstrap": "^3.3"
+    },
+    "scripts": {
+        "post-root-package-install": [
+        ],
+        "post-create-project-cmd": [
+
+        ],
+        "post-install-cmd": [
+
+        ],
+        "post-update-cmd": [
+            "cp -R vendor/twbs/bootstrap/dist/ bootstrap/"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "autoload": {
+        "psr-4": {
+            "LIB\\": "classLib/"
+        }
+    }
+
+
+}
